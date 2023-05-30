@@ -1,6 +1,6 @@
 .NavBar{
     height: 80px;
-    width: 95%;
+    width: 96%;
     position: fixed;
     z-index: 999;
     opacity: 0.9;
@@ -13,7 +13,6 @@
 
 .NavBar nav ul {
     list-style: none;
-    
     margin: 0;
     padding: 0;
 }
@@ -28,7 +27,7 @@
 
 .NavBar nav ul li a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .NavBar .MobileNavigation{
@@ -54,11 +53,21 @@
     .NavBar nav ul {
         display: flex;
         flex-direction: column;
-        width: 30%;
+        align-items: center;
+        width: 90%;
         position: absolute;
         top: 80px;
         right: 5%;
-        border-top: 2px solid white;
+        left: 5%;
+        height: 90vh;
+        border-top: 2px solid black;
+        background-color: white;
+        opacity: 0.6;
+        
+    }
+
+    .NavBar nav ul li {
+        margin: 4rem;
     }
 
 }
