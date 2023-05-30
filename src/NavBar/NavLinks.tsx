@@ -5,10 +5,10 @@ const NavLinks = () => {
                 <a href="#">Home</a>
             </li>
             <li>
-                <a href="#">Projects</a>
+                <a href="#project">Projects</a>
             </li>
             <li>
-                <a href="#">Contact</a>
+                <a href="#contact">Contact</a>
             </li>
         </ul>
     )

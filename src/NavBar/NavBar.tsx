@@ -9,6 +9,6 @@ const NavBar = () => {
             <MobileNavigation/>
         </div>
     )
-}
+};
 
-export default NavBar
+export default NavBar;
