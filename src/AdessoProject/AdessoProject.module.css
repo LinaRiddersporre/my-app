@@ -1,0 +1,10 @@
+.AdessoProject div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.AdessoProject div img {
+    width: 60%;
+}

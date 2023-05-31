@@ -6,7 +6,7 @@ const ProjectPage = () => {
 
     const goToProject = () => {
         return <div>
-            <Link to="/adessoProject"></Link> 
+            
             </div>
     }
 
@@ -15,7 +15,7 @@ const ProjectPage = () => {
             <div>
                 <h1 id="project">Project</h1>
                 <h2>adesso bokningsapplikation</h2>
-                <img src={photo} alt="Startpage on the adesso booking app" onClick={goToProject}/>
+                <Link to="/adessoProject"><img  src={photo} alt="Startpage on the adesso booking app" /></Link>
             </div>
         </span>
     );
