@@ -7,7 +7,13 @@
 }
 
 .FirstPage h1 {
-    margin: 0 0 0 20px;
+    margin: 0 0 0 5rem;
     font-family: 'Carter One', cursive;
     font-size: 2rem;
+}
+
+@media(max-width: 990px){
+    .FirstPage h1 {
+        margin: 0 0 0 20px;
+    }
 }

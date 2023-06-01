@@ -4,7 +4,6 @@ import NavBar from './NavBar/NavBar';
 import FirstPage from './FirstPage/FirstPage';
 import ProjectPage from './ProjectPage/ProjectPage';
 import ContactPage from './ContactPage/ContactPage';
-import AdessoProject from './AdessoProject/AdessoProject';
 
 const App = () => {
 

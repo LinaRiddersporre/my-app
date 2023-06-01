@@ -1,7 +1,7 @@
 import classes from "./AdessoProject.module.css"
 import adessoApplicationBookpage from "./img/adessoBooking.jpg"
 import adessoApplicationRoompage from "./img/adessoProject.png"
-import adessoApplicationAddEventpage from "./img/adessoProject.png"
+import adessoApplicationAddEventpage from "./img/adessoProject1.png"
 
 
 

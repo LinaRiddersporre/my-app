@@ -1,6 +1,8 @@
+import classes from "./NavBar.module.css"
+
 const NavLinks = () => {
     return (
-        <ul>
+        <ul className={classes.NavLinks}>
             <li>
                 <a href="#">Home</a>
             </li>
