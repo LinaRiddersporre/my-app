@@ -1,0 +1,9 @@
+.AboutPage div{
+    height: 50vh;
+    width: 100%;
+    background-color: brown;
+}
+
+.AboutPage div h1 {
+    padding-top: 3rem;
+}

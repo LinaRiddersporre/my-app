@@ -32,12 +32,12 @@
     display: none;
 }
 
-@media (max-width: 990px){
+@media (max-width: 800px){
     .NavBar{
         height: 3rem;
-        width: 90%;
+        width: 100vw;
         position: fixed;
-        right: 2rem;
+        /* right: 2rem; */
         flex-direction: row;
         opacity: 1;
     }
@@ -53,7 +53,7 @@
 
     .NavBar .MobileNavigation .Hamburger{
         position: absolute;
-        right: 5%;
+        right: 10%;
         cursor: pointer;
     }
 
