@@ -1,16 +1,22 @@
 
 .NavBar{
-    height: 100vh;
-    width: 5rem;
-    position: fixed;
-    opacity: 0.9;
+    height: 4rem;
+    width: 100vw;
+    position: sticky;
+    bottom: inherit;
+    top: 0;
+    opacity: 1;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: rgb(58, 59, 60);
-
+    border-bottom: solid 3px black;
+    align-items: center;
 }
 
+
 .NavBar nav ul {
+    display: flex;
+    flex-direction: row;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -19,8 +25,7 @@
 .NavBar nav ul li {
     margin: 1.5vw;
     height: 2rem;
-    font-size: large;
-    font-weight: bold;
+    font-size: 2rem;
 }
 
 .NavBar nav ul li a {
@@ -36,8 +41,6 @@
     .NavBar{
         height: 3rem;
         width: 100vw;
-        position: fixed;
-        /* right: 2rem; */
         flex-direction: row;
         opacity: 1;
     }
