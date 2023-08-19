@@ -1,16 +1,11 @@
 import { useEffect, useRef, useState } from "react"
 import classes from "./FirstPage.module.css"
+import {MyComponent} from "../Animation/Animation"
 
 const FirstPage = () => {
     return (
         <div className={classes.FirstPage}>
-            
-            <span className='firstPage'>
-                <div className='pitchFrace'>
-                    <h1>Hi, I'm Lina </h1>
-                    <h1>Front end developer</h1>
-                </div>
-            </span>
+            <MyComponent/>
         </div>
     )
 }
