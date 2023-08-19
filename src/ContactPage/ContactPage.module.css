@@ -1,7 +1,7 @@
 .ContactPage div {
     height: 50vh;
     width: 100%;
-    background-color: grey;
+    /* background-color: grey; */
     display: flex;
     flex-direction: column;
     align-items: center;

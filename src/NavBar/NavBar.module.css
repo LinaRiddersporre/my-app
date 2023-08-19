@@ -8,7 +8,7 @@
     opacity: 1;
     display: flex;
     flex-direction: row;
-    background-color: rgb(58, 59, 60);
+    background-color: #ACA9BB;
     border-bottom: solid 3px black;
     align-items: center;
 }
@@ -31,6 +31,14 @@
 .NavBar nav ul li a {
     text-decoration: none;
     color: black;
+}
+
+.NavBar nav ul li a:active {
+    text-decoration-line: underline;
+}
+
+.NavBar nav ul li a:hover {
+    color: #EDEDED;
 }
 
 .NavBar .MobileNavigation{
