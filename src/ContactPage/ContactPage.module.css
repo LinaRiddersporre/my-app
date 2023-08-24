@@ -11,3 +11,8 @@
     font-size: 3rem;
     padding-top: 10rem;
 }
+
+.ContactPage div h2 {
+    padding: 0 2rem;
+    max-width: 50rem;
+}

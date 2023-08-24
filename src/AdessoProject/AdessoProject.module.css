@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.AdessoProject div h1 {
+    padding: 1rem 2rem;
+    max-width: 50rem;
+}
 
 .AdessoProject div img {
     width: 60%;

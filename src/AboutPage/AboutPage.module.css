@@ -17,5 +17,6 @@
 .AboutPage div p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
-    padding-left: 2rem;
+    padding: 0 2rem;
+    max-width: 50rem;
 }
