@@ -14,8 +14,8 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<App />} />
-        <Route path='adessoProject' element={<AdessoProject />} />
+        <Route path='/react-gh-pages' element={<App />} />
+        <Route path='/react-gh-pages/adessoProject' element={<AdessoProject />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

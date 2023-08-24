@@ -7,7 +7,11 @@
 }
 
 .AboutPage div h1 {
-    padding: 40vh 0 0 2rem;
+    padding: 20vh 0 0 2rem;
+}
+
+.AboutPage div h2 {
+    padding: 2rem 0 1rem 2rem;
 }
 
 .AboutPage div p {

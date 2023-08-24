@@ -17,7 +17,7 @@ export const MyComponent = () => {
                     gyroControls: false,
                     scale: 1.0,
                     scaleMobile: 1.0,
-                    backgroundColor: '#5F5C6D',
+                    backgroundColor: '#444249',
                     points: 14.00,
                     maxDistance: 25.00,
                     spacing: 17.00,
@@ -30,7 +30,7 @@ export const MyComponent = () => {
     return (
         <div ref={vantaRef} >
             <p>
-                <h1>Hi, I'm <h2 style={{ color: 'hotpink' }}>Lina</h2> </h1>
+                <h1>Hi, I'm <h2 style={{ color: 'hotpink' }}>Lina Riddersporre</h2> </h1>
                 <h1>Front end developer</h1>
             </p>
         </div>
