@@ -1,4 +1,3 @@
-import { useEffect, useRef, useState } from "react"
 import classes from "./FirstPage.module.css"
 import {MyComponent} from "../Animation/Animation"
 

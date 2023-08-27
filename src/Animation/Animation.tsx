@@ -30,7 +30,7 @@ export const MyComponent = () => {
     return (
         <div ref={vantaRef} >
             <p>
-                <h1>Hi, I'm <h2 style={{ color: 'hotpink' }}>Lina Riddersporre</h2> </h1>
+                <h1>Hi, I'm <h2 style={{ color: 'hotpink' }}>Lina</h2> </h1>
                 <h1>Front end developer</h1>
             </p>
         </div>
