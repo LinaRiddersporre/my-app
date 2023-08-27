@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename={window.location.pathname || ''}>
+    <BrowserRouter>
       <Routes>
         <Route path='/my-app' element={<App />} />
         <Route path='/my-app/adessoProject' element={<AdessoProject />} />
