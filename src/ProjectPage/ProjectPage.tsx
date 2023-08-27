@@ -5,12 +5,6 @@ import { Link } from "react-router-dom";
 
 const ProjectPage = () => {
 
-    const goToProject = () => {
-        return <div>
-            
-            </div>
-    }
-
     return (
         <span className={classes.ProjectPage}>
             <div>
