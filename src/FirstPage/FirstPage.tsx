@@ -1,10 +1,10 @@
 import classes from "./FirstPage.module.css"
-import {MyComponent} from "../Animation/Animation"
+import { MyComponent } from "../Animation/Animation"
 
 const FirstPage = () => {
     return (
         <div className={classes.FirstPage}>
-            <MyComponent/>
+            <MyComponent />
         </div>
     )
 }

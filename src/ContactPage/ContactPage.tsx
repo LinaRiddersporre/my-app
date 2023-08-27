@@ -1,5 +1,5 @@
 import classes from "./ContactPage.module.css"
-import {BsLinkedin} from "react-icons/bs"
+import { BsLinkedin } from "react-icons/bs"
 
 
 const ContactPage = () => {
@@ -11,7 +11,7 @@ const ContactPage = () => {
                 <h2>Have a question or want to work together?</h2>
                 <div>
                     <a href="https://www.linkedin.com/in/lina-riddersporre-a16588109/">
-                        <BsLinkedin size="40px" color="darkblue"/>
+                        <BsLinkedin size="40px" color="darkblue" />
                     </a>
 
                 </div>

@@ -1,5 +1,4 @@
-
-.NavBar{
+.NavBar {
     height: 4rem;
     width: 100vw;
     position: sticky;
@@ -37,28 +36,28 @@
     color: #EDEDED;
 }
 
-.NavBar .MobileNavigation{
+.NavBar .MobileNavigation {
     display: none;
 }
 
-@media (max-width: 800px){
-    .NavBar{
+@media (max-width: 800px) {
+    .NavBar {
         height: 3rem;
         width: 100vw;
         flex-direction: row;
         opacity: 1;
     }
 
-    .NavBar .Navigation{
+    .NavBar .Navigation {
         display: none;
     }
-    
-    .NavBar .MobileNavigation{
+
+    .NavBar .MobileNavigation {
         display: flex;
         align-items: center;
     }
 
-    .NavBar .MobileNavigation .Hamburger{
+    .NavBar .MobileNavigation .Hamburger {
         position: absolute;
         right: 10%;
         cursor: pointer;
@@ -76,7 +75,7 @@
         height: 90vh;
         border-top: 2px solid black;
         background-color: white;
-        
+
     }
 
     .NavBar nav ul li {

@@ -5,8 +5,8 @@ import Navigation from "./Navigation"
 const NavBar = () => {
     return (
         <div className={classes.NavBar}>
-            <Navigation/>
-            <MobileNavigation/>
+            <Navigation />
+            <MobileNavigation />
         </div>
     )
 };

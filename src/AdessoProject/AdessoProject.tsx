@@ -6,6 +6,8 @@ import adessoApplicationAddEventpage from "./img/adessoProject1.png"
 const AdessoProject = () => {
     return (
         <div className={classes.AdessoProject}>
+
+            <a href="/">Go back</a>
             <div className='adesso'>
                 <h1>Adesso booking application</h1>
                 <div>
