@@ -14,8 +14,8 @@ root.render(
   <React.StrictMode>
     <BrowserRouter basename={window.location.pathname || ''}>
       <Routes>
-        <Route path='/' element={<App />} />
-        <Route path='/adessoProject' element={<AdessoProject />} />
+        <Route path='/my-app' element={<App />} />
+        <Route path='/my-app/adessoProject' element={<AdessoProject />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
