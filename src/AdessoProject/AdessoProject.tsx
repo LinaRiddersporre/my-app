@@ -6,10 +6,13 @@ import adessoApplicationAddEventpage from "./img/adessoProject1.png"
 const AdessoProject = () => {
     return (
         <div className={classes.AdessoProject}>
-
             <a href="/">Go back</a>
             <div className='adesso'>
                 <h1>Adesso booking application</h1>
+                <span>
+                    <p>Internship-project, a scheduler to book the booking-rooms at the office.</p>
+                    <p>Done in React with Materials.ui and connected to AWS.</p>
+                </span>
                 <div>
                     <img src={adessoApplicationBookpage} alt="Startpage on the adesso booking app" />
                 </div>
